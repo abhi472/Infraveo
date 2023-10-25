@@ -268,30 +268,6 @@ private fun UserInputSelector(
             selected = currentInputSelector == InputSelector.EMOJI,
             description = stringResource(id = R.string.emoji_selector_bt_desc)
         )
-        InputSelectorButton(
-            onClick = { onSelectorChange(InputSelector.DM) },
-            icon = Icons.Outlined.Email,
-            selected = currentInputSelector == InputSelector.DM,
-            description = stringResource(id = R.string.dm_desc)
-        )
-        InputSelectorButton(
-            onClick = { onSelectorChange(InputSelector.PICTURE) },
-            icon = Icons.Outlined.ThumbUp,
-            selected = currentInputSelector == InputSelector.PICTURE,
-            description = stringResource(id = R.string.attach_photo_desc)
-        )
-        InputSelectorButton(
-            onClick = { onSelectorChange(InputSelector.MAP) },
-            icon = Icons.Outlined.Place,
-            selected = currentInputSelector == InputSelector.MAP,
-            description = stringResource(id = R.string.map_selector_desc)
-        )
-        InputSelectorButton(
-            onClick = { onSelectorChange(InputSelector.PHONE) },
-            icon = Icons.Outlined.Call,
-            selected = currentInputSelector == InputSelector.PHONE,
-            description = stringResource(id = R.string.videochat_desc)
-        )
 
         val border = if (!sendMessageEnabled) {
             BorderStroke(
