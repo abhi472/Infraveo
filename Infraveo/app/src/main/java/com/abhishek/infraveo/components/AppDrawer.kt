@@ -51,7 +51,6 @@ fun AppDrawerContent(
         DividerItem()
         DrawerItemHeader("Chats")
         ChatItem("composers", true) { onChatClicked("composers") }
-        ChatItem("droidcon-nyc", false) { onChatClicked("droidcon-nyc") }
         DividerItem(modifier = Modifier.padding(horizontal = 28.dp))
         DrawerItemHeader("Recent Profiles")
 
@@ -66,7 +65,7 @@ private fun DrawerHeader() {
             modifier = Modifier.size(24.dp)
         )
         Image(
-            painter = painterResource(id = R.drawable.jetchat_logo),
+            painter = painterResource(id = R.drawable.chat_logo),
             contentDescription = null,
             modifier = Modifier.padding(start = 8.dp)
         )
@@ -111,7 +110,7 @@ private fun ChatItem(text: String, selected: Boolean, onChatClicked: () -> Unit)
             MaterialTheme.colorScheme.onSurfaceVariant
         }
         Icon(
-            painter = painterResource(id = R.drawable.ic_jetchat),
+            painter = painterResource(id = R.drawable.ic_chat),
             tint = iconTint,
             modifier = Modifier.padding(start = 16.dp, top = 16.dp, bottom = 16.dp),
             contentDescription = null

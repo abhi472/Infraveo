@@ -23,35 +23,30 @@ private val initialMessages = listOf(
         R.drawable.sticker
     ),
     Message(
-        "Taylor Brooks",
+        "Nikhil Handa",
         "You can use all the same stuff",
         "8:05 PM"
     ),
     Message(
-        "Taylor Brooks",
-        "@aliconors Take a look at the `Flow.collectAsStateWithLifecycle()` APIs",
+        "Nikhil Handa",
+        "@abhishek LOL, do it, newb",
         "8:05 PM"
     ),
     Message(
-        "John Glenn",
-        "Compose newbie as well $EMOJI_FLAMINGO, have you looked at the JetNews sample? " +
-                "Most blog posts end up out of date pretty fast but this sample is always up to " +
-                "date and deals with async data loading (it's faked but the same idea " +
-                "applies) $EMOJI_POINTS https://goo.gle/jetnews",
+        "Bill Murray",
+        "They're still asking for apps, dont you have like 7+ years of experience?",
         "8:04 PM"
     ),
     Message(
         "me",
-        "Compose newbie: I’ve scourged the internet for tutorials about async data " +
-                "loading but haven’t found any good ones $EMOJI_MELTING $EMOJI_CLOUDS. " +
-                "What’s the recommended way to load async data and emit composable widgets?",
+        "Got this task to create an app as an interview, lol,",
         "8:03 PM"
     )
 )
 
 val exampleUiState = ConversationUiState(
     initialMessages = initialMessages,
-    channelName = "#composers",
+    channelName = "#Infraveo",
     channelMembers = 42
 )
 
