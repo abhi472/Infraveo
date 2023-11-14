@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "1060469260190",
+    "project_id": "chemx-404921",
+    "storage_bucket": "chemx-404921.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060469260190:android:fcd014f811e26c940ba08f",
+        "android_client_info": {
+          "package_name": "com.tmr.chemx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060469260190-1m1n6aom5kvqpptiljkj866g1lk8j94c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tmr.chemx",
+            "certificate_hash": "50d9cf8d7c64869fa587e9098ad06a623bc1fc2f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNpXCiCjdKSt_35u28zSGlp8GJ7b9rQ8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
