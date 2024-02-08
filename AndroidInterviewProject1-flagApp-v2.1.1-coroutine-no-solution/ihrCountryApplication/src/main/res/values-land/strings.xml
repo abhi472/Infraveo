@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Country Application</string>
+    <string name="empty_list_text">No items available</string>
+
+    <string name="native_name_title">Native name:</string>
+    <string name="border_section_title">2. Bordered countries: %d</string>
+    <string name="language_section_title">3. Official Languages:</string>
+</resources>

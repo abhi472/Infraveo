@@ -1,0 +1,64 @@
+# Android Studio
+.idea/
+*.iml
+
+
+
+# gradle
+/.gradle/
+/*/gradle-build/
+/Build/exploded-aar/
+.gradle/
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+/Build/intermediates/
+buildSrc/
+**/reports/
+
+# swap files
+.swp
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Mac garbage
+.DS_Store
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Mac garbage
+.DS_Store
+
+# settings
+.settings/
+
+# IntelliJ/Android Studio files
+.idea/
+
+out/
+
+build/
+ 
+
+.projectile
+TAGS
+ 
+
+ 
+
+**/Configure
+**/Task
